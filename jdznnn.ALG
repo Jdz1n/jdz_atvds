@@ -1,42 +1,33 @@
 Algoritmo "semnome"
-// 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+//
+//
+// Descri??o   : Aqui voc? descreve o que o programa faz! (fun??o)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 04/09/2023
+// Data atual  : 02/09/2023
 Var
    // Se??o de Declara??es das vari?veis
-   nomeDoProduto: caracter
-   quantidadeAdquirida: real
-   precoUnitario: real
-   total: real
-   valorTotal: real
-   desconto: real
+   corDoCd: caracter
+   verde: caracter
+   azul: caracter
+   amarelo: caracter
+   vermelho: caracter
+
 Inicio
    // Se??o de Comandos, procedimento, fun??es, operadores, etc...
-   escreva("Informe qual o produto voc? pegou: ")
-   leia(nomeDoProduto)
+   escreva("Informe a cor do cd que voc? comprou: ")
+   leia(corDoCd)
    limpatela
 
-   escreva("Informe o pre?o unit?rio do produto: ")
-   leia(precoUnitario)
-   limpatela
-
-   escreva("Informe a quantidade que voc? pegou: ")
-   leia(quantidadeAdquirida)
-   limpatela
-
-   valorTotal <- quantidadeAdquirida * precoUnitario
-
-   escreva("Valor sem desconto: R$", valorTotal)
-   escreval("")
-   se (quantidadeAdquirida <= 5)entao
-      escreva("Valor com desconto de 2%: R$", valorTotal * 0.98)
+   se(corDoCd = "verde")entao
+      escreva("O valor foi de: R$ 10.00")
    fimse
-   se (quantidadeAdquirida > 5)e(quantidadeAdquirida <=10)entao
-      escreva("Valor com desconto de 3%: R$", valorTotal * 0.97)
+   se(corDoCd = "azul")entao
+      escreva("O valor foi de: R$ 20.00")
    fimse
-   se (quantidadeAdquirida >10)entao
-      escreva("O valor com desconto de 5%: R$", valorTotal * 0.95)
+   se(corDoCd = "amarelo")entao
+      escreva("O valor foi de: R$ 30.00")
+   fimse
+   se(corDoCd = "vermelho")entao
+      escreva("O valor foi de: R$ 40.00")
    fimse
 Fimalgoritmo
