@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome : caracter
    idade : inteiro
    A : inteiro
@@ -17,7 +17,7 @@ Var
    emprestimo : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
 
@@ -38,13 +38,13 @@ Inicio
    prestacao <- rendamensal * 0.3
 
    se (emprestimosol <= emprestimo) e (idade >= 18) entao
-      escreval ("você pode solicitar um emprestimo!")
+      escreval ("vocÃª pode solicitar um emprestimo!")
    senao
-      escreval ("você não pode solicitar um emprestimo")
+      escreval ("vocÃª nÃ£o pode solicitar um emprestimo")
    fimse
 
    se (emprestimosol <= emprestimo) e (idade >= 18) entao
-      escreva("digite o numero de prestações desejadas: ")
+      escreva("digite o numero de prestaÃ§Ãµes desejadas: ")
       leia (A)
       limpatela
       escreval ("nome: ", nome)
@@ -52,8 +52,8 @@ Inicio
       escreval ("renda mensal do cliente:  R$", rendamensal)
       escreval ("Valor total que pode ser solicitado:  R$", emprestimo)
       escreval ("valor do emprestimo solicitado: R$",emprestimosol)
-      escreval ("numero maximo do valor das prestações: R$", prestacao)
-      escreval ("numero de prestações escolhidas pelo pagante:  ", A)
+      escreval ("numero maximo do valor das prestaÃ§Ãµes: R$", prestacao)
+      escreval ("numero de prestaÃ§Ãµes escolhidas pelo pagante:  ", A)
 
 fimse
 Fimalgoritmo
